@@ -1,0 +1,161 @@
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  /* box-sizing: border-box; */
+}
+
+hr {
+  width: 70rem;
+  color: whitesmoke;
+}
+
+.banner {
+  background-color: #ecebea;
+  display: flex;
+  padding: 5rem;
+  padding-left: 15rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.banner__left {
+  flex: 0.5;
+}
+
+.banner__left > h6 {
+  color: #93c3f8;
+  font-weight: 900;
+  z-index: 999;
+  opacity: 1;
+}
+
+.banner__right {
+  flex: 0.5;
+}
+
+h2 {
+  font-weight: 900 !important;
+}
+
+.banner__right > img {
+  object-fit: cover;
+  height: 100%;
+}
+
+button {
+  padding: 0.7rem;
+  width: 10rem;
+  background-color: #5b65ce;
+  border: none;
+  color: #fff;
+}
+
+.discuss {
+  padding: 5rem;
+  padding-left: 10rem;
+  font-family: Roboto;
+  display: flex;
+}
+h6 {
+  color: #93c3f8;
+}
+
+.discuss__left {
+  flex: 0.5;
+}
+.discuss__right {
+  flex: 0.5;
+}
+
+.add {
+  padding: 5rem;
+  padding-left: 15rem;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+
+.add__left {
+  flex: 0.5;
+}
+
+.add__right {
+  flex: 0.5;
+}
+
+.logo__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafb;
+  height: 30vh;
+}
+.logo__card > h5 {
+  margin-left: 2rem;
+  font-weight: lighter;
+  opacity: 0.7;
+  font-weight: 900 !important;
+  /* color: #dfdede; */
+}
+
+.logo__card {
+  background-color: #f4f4f4;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  width: 10rem;
+}
+
+.benefit__cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.benefit__card {
+  margin-left: 3rem;
+  font-family: Roboto;
+}
+
+.benefit__logo > img {
+  height: 3rem;
+  border-radius: 60%;
+  background-color: #ece6e6;
+}
+
+.review {
+  height: 60vh;
+  font-family: "Architects Daughter", cursive;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  background-color: #fafafb;
+}
+
+.review__img > img {
+  height: 7rem;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.review__rating > img {
+  height: 1rem;
+  margin-top: 1rem;
+}
+
+.footer {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background-color: #1e1f1f;
+  color: white;
+}
+
+.footer__desc > p {
+  font-size: 0.8rem;
+}
+
+.footer__end > p {
+  margin-top: 5rem;
+  font-size: 0.7rem;
+}
